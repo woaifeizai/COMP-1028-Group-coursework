@@ -1,2 +1,4 @@
 #include <stdio.h>
-printf {"im mj welcome to 67 restaurant"}
+int main{
+printf "im mj welcome to 67 restaurant"
+}
