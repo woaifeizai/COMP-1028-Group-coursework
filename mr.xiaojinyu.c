@@ -1,4 +1,0 @@
-#include <stdio.h>
-int main {
-  printf ("im mj welcome to 67 restaurant")
-}
