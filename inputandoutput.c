@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "input_and_output.h"
+#include "input and output.h"
 #define INITIAL_CAPACITY 16
 //delete all the space, enter and /n
 static void trim_right(char *s){
@@ -117,7 +117,6 @@ int load_collection(DocCollection *col, const char *folder, const char *manifest
     }
     strncpy(col->folder, folder, MAX_PATH_LEN - 1);
     col->folder[MAX_PATH_LEN - 1] = '\0';
-    /* 逐行读取文件名 */
     //read file name line by line
     while (fgets(line, sizeof(line), mf) != NULL) {
         trim_right(line);
