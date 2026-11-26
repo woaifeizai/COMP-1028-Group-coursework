@@ -5,6 +5,8 @@
 
 void tokenize_text(const char *text,  TokenCallback callback,  void *context)
 
+{
+    
 char token[TOKEN_SIZE];
 int length = 0;
 int i = 0;
